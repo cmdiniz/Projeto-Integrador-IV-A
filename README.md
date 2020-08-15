@@ -34,6 +34,10 @@
 * [Foca Linux](http://www.guiafoca.org/)
 * [Ebooks sobre Sistemas Operacionais Posix](https://drive.google.com/drive/folders/0B2INSZz1E5TlVWdkVFM0OUxKXzA)
 
+#### Virtualizando
+* [[https://www.virtualbox.org/ | Virtual Box]]
+* [[https://linuxmint.com/ | Linux Mint]]
+
 #### Transmitindo Informações Sensoriadas do Meio para um Servidor
   * Conceitos
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
