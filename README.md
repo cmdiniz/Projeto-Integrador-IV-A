@@ -10,10 +10,21 @@
 
 ### Primeiro Encontro - 15/08/2020
 
-#### Introdução à IoT:
+#### Sockets TCP & UDP
+[Introdução ao Conceito de Sockets](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=introducao-sockets.pdf)
+
+#### Conceitos Relacionados à IoT:
 * [Slides](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=internet_das_coisas_piv.pdf)
 * [IoT Comic Book](https://iotcomicbook.org/)
 * [Fog & Cloud](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=apresentacao-pi-iv.pdf)
+
+#### Plataformas de Nuvem para IoT
+* [Relação de Serviços](http://olaria.ucpel.edu.br/materiais/doku.php?id=plataformas_nuvem_iot)
+
+#### Embarcados para IoT
+[System on a Chip: ESP32S - NodeMCU](http://olaria.ucpel.edu.br/micropython/doku.php?id=esp32) - [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1151473863-esp32-esp32s-placa-modulo-wi-fi-bluetooth-dual-core-_JM?matt_tool=79246729&matt_word=&gclid=CjwKCAjw4MP5BRBtEiwASfwAL0F8mFwv-V3Q_O161Ge-EfIvJKZPkDSirQHND7rrsGmBt5yx62m_8xoC2C4QAvD_BwE&shippingOptionId=undefined)
+[Sensor de Temperatura DS18b20](https://www.maximintegrated.com/en/products/sensors/DS18B20.html) - [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1059731944-5x-sensor-de-temperatura-ds18b20-waterproof-arduino-_JM?quantity=1#position=3&type=item&tracking_id=d4f114c0-9fab-4e6d-ae50-cd980b631fb6)
+
 
 
 #### Transmitindo Informações Sensoriadas do Meio para um Servidor
