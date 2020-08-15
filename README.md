@@ -1,6 +1,12 @@
 ## Projeto-Integrador-IV-A
 
 ### Equipe
+* Bruno Lemke dos Santos
+* Guilherme de Souza Dias
+* Luciano Batista da Cunha
+* Marcelo Souza da Rosa
+* Ronaldo Silva da Cunha
+* Tiago Tessmann Oliveira
 
 ### Primeiro Encontro - 15/08/2020
 
