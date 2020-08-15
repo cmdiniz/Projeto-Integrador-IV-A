@@ -15,6 +15,7 @@
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
     * [Protocolo MQTT - Material Curto Circuito](https://www.curtocircuito.com.br/blog/introducao-ao-mqtt/)
     * [Slides sobre MQTT - Material UFC](https://pt.slideshare.net/MaurcioMoreiraNeto/protocolo-mqtt-redes-de-computadores)
+    * [Comparação MQTT & Outros Protocolos](https://medium.com/internet-das-coisas/iot-05-dando-uma-breve-an%C3%A1lise-no-protocolo-mqtt-e404e977fbb6)
   * Plataformas de Software
     * [Mosquitto da Eclipse Foundation](https://mosquitto.org)
     * [Brokers MQTT gratuitos e pagos para utilizar em projetos da IoT](https://mntolia.com/10-free-public-private-mqtt-brokers-for-testing-prototyping/)
@@ -35,7 +36,7 @@ def on_connect(client, userdata, flags, rc):
 
     # O subscribe fica no on_connect pois, caso perca a conexão ele a renova
     # Lembrando que quando usado o #, você está falando que tudo que chegar após a barra do topico, será recebido
-    client.subscribe("PI-3A/#")
+    client.subscribe("PI-IV-A/#")
 
 # Callback responsavel por receber uma mensagem publicada no tópico acima
 def on_message(client, userdata, msg):
@@ -66,7 +67,7 @@ import context
 import paho.mqtt.publish as publish
 
 # Publica
-publish.single("PI-3A", "Olá Mundo!", hostname="mqtt.eclipse.org")
+publish.single("PI-IVA", "Olá Mundo!", hostname="mqtt.eclipse.org")
 ~~~
 
-https://medium.com/internet-das-coisas/iot-05-dando-uma-breve-an%C3%A1lise-no-protocolo-mqtt-e404e977fbb6
+
