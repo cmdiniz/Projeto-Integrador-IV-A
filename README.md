@@ -22,8 +22,8 @@
 * [Relação de Serviços](http://olaria.ucpel.edu.br/materiais/doku.php?id=plataformas_nuvem_iot)
 
 #### Embarcados para IoT
-* [System on a Chip: ESP32S - NodeMCU](http://olaria.ucpel.edu.br/micropython/doku.php?id=esp32) - [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1151473863-esp32-esp32s-placa-modulo-wi-fi-bluetooth-dual-core-_JM?matt_tool=79246729&matt_word=&gclid=CjwKCAjw4MP5BRBtEiwASfwAL0F8mFwv-V3Q_O161Ge-EfIvJKZPkDSirQHND7rrsGmBt5yx62m_8xoC2C4QAvD_BwE&shippingOptionId=undefined)
-* [Sensor de Temperatura DS18b20](https://www.maximintegrated.com/en/products/sensors/DS18B20.html) - [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1059731944-5x-sensor-de-temperatura-ds18b20-waterproof-arduino-_JM?quantity=1#position=3&type=item&tracking_id=d4f114c0-9fab-4e6d-ae50-cd980b631fb6)
+* [System on a Chip ESP32S](http://olaria.ucpel.edu.br/micropython/doku.php?id=esp32) -- [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1151473863-esp32-esp32s-placa-modulo-wi-fi-bluetooth-dual-core-_JM?matt_tool=79246729&matt_word=&gclid=CjwKCAjw4MP5BRBtEiwASfwAL0F8mFwv-V3Q_O161Ge-EfIvJKZPkDSirQHND7rrsGmBt5yx62m_8xoC2C4QAvD_BwE&shippingOptionId=undefined)
+* [Sensor de Temperatura DS18b20](https://www.maximintegrated.com/en/products/sensors/DS18B20.html) -- [Oferta Mercado Livre](https://produto.mercadolivre.com.br/MLB-1059731944-5x-sensor-de-temperatura-ds18b20-waterproof-arduino-_JM?quantity=1#position=3&type=item&tracking_id=d4f114c0-9fab-4e6d-ae50-cd980b631fb6)
 
 
 
