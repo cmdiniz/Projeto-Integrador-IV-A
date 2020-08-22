@@ -156,3 +156,13 @@ while (contador < 25):
 	contador = contador + 1
 	time.sleep(3)
 ~~~
+
+###### Script em Bash para gerar ocupação de CPU
+~~~
+while true; do
+
+a=7.15/6.74
+
+done
+
+~~~
