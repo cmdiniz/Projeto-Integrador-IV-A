@@ -127,5 +127,16 @@ import paho.mqtt.publish as publish
 # Publica
 publish.single("pi4", "Olá Mundo!", hostname="broker.emqx.io")
 ~~~
+###### Publicação com Laço de Repetição
+~~~
+import paho.mqtt.publish as publish
+import time
 
+# Publica
 
+contador = 0
+while (contador < 5):
+        publish.single("pi4", contador, hostname="broker.emqx.io")
+        contador = contador + 1
+        time.sleep(2)
+~~~
