@@ -83,9 +83,9 @@ done
 ~~~
 # Cliente Python para subscrever em um Broker MQTT
 #
-# Para instalar o paho-mqtt use um dos métodos abaixo:
-# 1) pip install paho-mqtt 
-# 2) apt get install paho-mqtt
+# Para instalar o paho-mqtt use o comando pip install paho-mqtt ou
+# apt get install paho-mqtt
+# Faca as instalacoes como root
 #
 import paho.mqtt.client as mqtt
 
@@ -93,11 +93,11 @@ import paho.mqtt.client as mqtt
 def on_connect(client, userdata, flags, rc):
     print("Conectado, com o seguinte retorno do Broker: "+str(rc))
 
-    # O subscribe fica no on_connect pois, caso perca a conexão ele a renova
-    # Lembrando que quando usado o #, você está falando que tudo que chegar após a barra do topico, será recebido
+    # O subscribe fica no on_connect pois, caso perca a conexao ele a renova
+    # Lembrando que quando usado o #, você está falando que tudo que chegar após a barra do topico, sera recebido
     client.subscribe("pi4/#")
 
-# Callback responsavel por receber uma mensagem publicada no tópico acima
+# Callback responsavel por receber uma mensagem publicada no topico acima
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
 
@@ -117,6 +117,7 @@ client.connect("broker.emqx.io", 1883, 60)
 # manual interface.
 # Inicia o loop
 client.loop_forever()
+
 ~~~
 ##### Procedimento de Publicação
 ~~~
