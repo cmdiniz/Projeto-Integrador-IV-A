@@ -83,7 +83,10 @@ done
 ~~~
 # Cliente Python para subscrever em um Broker MQTT
 #
-# Para instalar o paho-mqtt use o comando pip install paho-mqtt
+# Para instalar o paho-mqtt use um dos métodos abaixo:
+# 1) pip install paho-mqtt 
+# 2) apt get install paho-mqtt
+#
 import paho.mqtt.client as mqtt
 
 # Retorno quando um cliente recebe um  CONNACK do Broker, confirmando a subscricao
