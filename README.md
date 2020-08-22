@@ -123,7 +123,7 @@ import context
 import paho.mqtt.publish as publish
 
 # Publica
-publish.single("PI-IVA", "Olá Mundo!", hostname="mqtt.eclipse.org")
+publish.single("pi4", "Olá Mundo!", hostname="broker.emqx.io")
 ~~~
 
 
