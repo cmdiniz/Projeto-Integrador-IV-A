@@ -92,7 +92,7 @@ def on_connect(client, userdata, flags, rc):
 
     # O subscribe fica no on_connect pois, caso perca a conexão ele a renova
     # Lembrando que quando usado o #, você está falando que tudo que chegar após a barra do topico, será recebido
-    client.subscribe("PI-IV-A/#")
+    client.subscribe("pi4/#")
 
 # Callback responsavel por receber uma mensagem publicada no tópico acima
 def on_message(client, userdata, msg):
@@ -106,7 +106,7 @@ client.on_message = on_message
 # client.username_pw_set("USUARIO", password="SENHA")
 
 # Conecta no MQTT Broker
-client.connect("mqtt.eclipse.org", 1883, 60)
+client.connect("broker.emqx.io", 1883, 60)
 
 # Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.
