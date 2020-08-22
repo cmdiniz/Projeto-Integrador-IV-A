@@ -140,3 +140,19 @@ while (contador < 5):
         contador = contador + 1
         time.sleep(2)
 ~~~
+
+###### Publicação com Laço de Repetição lendo a Ocupação de CPU
+~~~
+# Ensures paho is in PYTHONPATH
+# Importa o publish do paho-mqtt
+import paho.mqtt.publish as publish
+import time
+import psutil
+# Publica
+
+contador = 0
+while (contador < 25):
+	publish.single("pi4", psutil.cpu_percent(), hostname="broker.emqx.io")
+	contador = contador + 1
+	time.sleep(3)
+~~~
