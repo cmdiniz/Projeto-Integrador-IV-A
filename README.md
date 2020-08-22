@@ -39,8 +39,8 @@
   * A cada 2 minutos o comando é executado
 
 #### Virtualizando
-* [https://www.virtualbox.org/](Virtual Box)
-* [https://linuxmint.com/](Linux Mint)
+* [Virtual Box](https://www.virtualbox.org/)
+* [Linux Mint](https://linuxmint.com/)
 
 #### Transmitindo Informações Sensoriadas do Meio para um Servidor
   * Conceitos
