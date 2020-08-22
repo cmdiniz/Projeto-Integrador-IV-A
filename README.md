@@ -58,6 +58,25 @@
 
 * sudo apt install mosquitto-clients
 
+* Testes feitos com o Broker: broker.emqx.io
+
+* mosquitto_sub -h broker.emqx.io -t pi4
+
+* mosquitto_pub -h broker.emqx.io -t pi4 -m "Primeira Conexao"
+
+
+#### Publicando com Scritp Bash em Broker MQTT
+~~~
+#!/bin/bash
+contador=1
+while [ $contador -le 10 ]
+do
+        mosquitto_pub -h broker.emqx.io -t pi4 -m $contador
+        sleep 3
+        let contador=contador+1
+done
+~~~
+
 #### Comunicando com um Broker MQTT utilizando Python
 
 ##### Procedimento de Subscrição
