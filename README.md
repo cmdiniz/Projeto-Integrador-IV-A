@@ -118,7 +118,6 @@ client.loop_forever()
 ##### Procedimento de Publicação
 ~~~
 # Ensures paho is in PYTHONPATH
-import context
 # Importa o publish do paho-mqtt
 import paho.mqtt.publish as publish
 
