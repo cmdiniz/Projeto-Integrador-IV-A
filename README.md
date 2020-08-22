@@ -53,6 +53,11 @@
     * [Brokers MQTT gratuitos e pagos para utilizar em projetos da IoT](https://diyprojects.io/8-online-mqtt-brokers-iot-connected-objects-cloud/#.XzfHmEl7nUI)
     * [Explorando o uso de MQTT em Programas Python](https://fazbe.github.io/Usando-o-paho-mqtt-para-Python/)
 
+
+#### Instalando os Clientes da Plataforma Mosquitto
+
+* sudo apt install mosquitto-clients
+
 #### Comunicando com um Broker MQTT utilizando Python
 
 ##### Procedimento de Subscrição
