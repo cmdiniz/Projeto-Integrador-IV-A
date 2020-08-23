@@ -77,6 +77,10 @@ do
 done
 ~~~
 
+#### Linguagem Python
+* [Guia de linguagem Python - DevMedia](https://www.devmedia.com.br/python/)
+* [Lendo Ocupação de CPU e Memória em Python](https://www.it-swarm.dev/pt/python/como-obter-cpu-atual-e-ram-uso-em-python/958548632/)
+
 #### Comunicando com um Broker MQTT utilizando Python
 
 ##### Procedimento de Subscrição
@@ -144,7 +148,6 @@ while (contador < 5):
 
 ###### Publicação com Laço de Repetição lendo a Ocupação de CPU
 
-[Lendo Ocupação de CPU e Memória em Python](https://www.it-swarm.dev/pt/python/como-obter-cpu-atual-e-ram-uso-em-python/958548632/)
 ~~~
 # Ensures paho is in PYTHONPATH
 # Importa o publish do paho-mqtt
