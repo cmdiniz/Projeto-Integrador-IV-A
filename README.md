@@ -80,6 +80,7 @@ done
 #### Linguagem Python
 * [Guia de linguagem Python - DevMedia](https://www.devmedia.com.br/python/)
 * [Lendo Ocupação de CPU e Memória em Python](https://www.it-swarm.dev/pt/python/como-obter-cpu-atual-e-ram-uso-em-python/958548632/)
+* [Receitas para manipular arquivos de texto em Python](http://devfuria.com.br/python/receitas-para-manipular-arquivos-de-texto/)
 
 #### Comunicando com um Broker MQTT utilizando Python
 
