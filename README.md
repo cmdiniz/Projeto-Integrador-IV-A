@@ -193,7 +193,7 @@ pip3 install --upgrade pip
 pip3 install mysql-connector
 ~~~
 
-#### Teste de conexo do banco de dados MySQL com programa em Python
+#### Teste de conexão do banco de dados MySQL com programa em Python
 
 #### Programa Python (teste_conexao.py)
 
@@ -203,7 +203,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
 	host = "127.0.0.1",
 	user="root",
-	passwd="ucpel2020"
+	passwd="minhasenha"
 )
 
 print(mydb) 
