@@ -173,3 +173,5 @@ a=7.15/6.74
 done
 
 ~~~
+
+### Segundo Encontro - 12/09/2020
