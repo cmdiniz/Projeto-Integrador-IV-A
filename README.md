@@ -185,3 +185,38 @@ done
 #### Materiais sobre MySQL
 * [Documentação MySQL](https://dev.mysql.com/doc/)
 * [Curso completo de MySQL para iniciantes (vídeo em inglês)](https://youtu.be/7S_tz1z_5bA)
+
+#### Instalação do conector com a linguagem Python
+
+~~~
+pip3 install --upgrade pip
+pip3 install mysql-connector
+~~~
+
+#### Teste de conexo do banco de dados MySQL com programa em Python
+
+#### Programa Python (teste_conexao.py)
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="ucpel2020"
+)
+
+print(mydb) 
+~~~
+
+#### Executando o programa Python
+
+~~~
+python3 teste_conexao.py
+~~~
+
+#### Saída esperada do programa teste_conexao.py
+
+~~~
+<mysql.connector.connection_cext.CMySQLConnection object at 0x...
+~~~
