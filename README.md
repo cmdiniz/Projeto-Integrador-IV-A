@@ -175,3 +175,13 @@ done
 ~~~
 
 ### Segundo Encontro - 12/09/2020
+
+#### Instalação do MySQL
+* [MySQL Downloads](https://mysql.com/downloads)
+* [Vídeo de instruções para instalação no Linux (Ubuntu 18.04)](https://www.youtube.com/watch?v=CBK7c1xp-zI)
+* [Vídeo de instruções para instalação no Windows 10](https://www.youtube.com/watch?v=fmerTu7dWk8)
+* [Vídeo de instruções para instalação no Mac (em inglês)](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=290s)
+
+#### Materiais sobre MySQL
+* [Documentação MySQL](https://dev.mysql.com/doc/)
+* [Curso completo de MySQL para iniciantes (vídeo em inglês)](https://youtu.be/7S_tz1z_5bA)
