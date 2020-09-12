@@ -195,16 +195,20 @@ done
 
 * [Prática com linguagem SQL usando MySQL](https://drive.google.com/file/d/16I9LW3rCATxGYz21vjjMKWQ64t2NKiTr/view?usp=sharing)
 
-#### Instalação do conector com a linguagem Python
+#### Acessando o banco de dados com programa em Python
+
+* [Python e MySQL (playlist de vídeos no YouTube](https://www.youtube.com/playlist?list=PLB5jA40tNf3tRMbTpBA0N7lfDZNLZAa9G)
+
+##### Instalação do conector com a linguagem Python
 
 ~~~
 pip3 install --upgrade pip
 pip3 install mysql-connector
 ~~~
 
-#### Teste de conexão do banco de dados MySQL com programa em Python
+##### Teste de conexão do banco de dados MySQL com programa em Python
 
-#### Programa Python (teste_conexao.py)
+###### Programa Python (teste_conexao.py)
 
 ~~~
 import mysql.connector
@@ -218,14 +222,53 @@ mydb = mysql.connector.connect(
 print(mydb) 
 ~~~
 
-#### Executando o programa Python
+###### Executando o programa Python
 
 ~~~
 python3 teste_conexao.py
 ~~~
 
-#### Saída esperada do programa teste_conexao.py
+###### Saída esperada do programa teste_conexao.py
 
 ~~~
 <mysql.connector.connection_cext.CMySQLConnection object at 0x...
+~~~
+
+###### Mostrando os bancos de dados do MySQL
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="minhasenha"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("SHOW DATABASES")
+
+for db in mycursor:
+	print(db)
+~~~
+
+###### Mostrando as tabelas de um bancos de dados projeto1
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="minhasenha",
+	database="projeto1"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("SHOW TABLES")
+
+for tb in mycursor:
+	print(tb)
 ~~~
