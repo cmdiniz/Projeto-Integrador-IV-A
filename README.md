@@ -191,6 +191,10 @@ done
 * [Modelagem conceitual de banco de dados](https://drive.google.com/file/d/1wJ3lc_D0D7gQDiwK26PSdvKLPAW8f1qZ/view?usp=sharing)
 * [Gerando códigos SQL a partir de um Diagrama Entidade-Relacionamento (DER) no MySQL Workbench](https://www.youtube.com/watch?v=UMACnfziDCE)
 
+#### Prática com linguagem SQL (Structured Query Language)
+
+* [Prática com linguagem SQL usando MySQL](https://drive.google.com/file/d/16I9LW3rCATxGYz21vjjMKWQ64t2NKiTr/view?usp=sharing)
+
 #### Instalação do conector com a linguagem Python
 
 ~~~
