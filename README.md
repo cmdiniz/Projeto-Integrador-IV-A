@@ -198,7 +198,7 @@ done
 
 #### Acessando o banco de dados com programa em Python
 
-* [Python e MySQL (playlist de vídeos no YouTube](https://www.youtube.com/playlist?list=PLB5jA40tNf3tRMbTpBA0N7lfDZNLZAa9G)
+* [Python e MySQL (playlist de vídeos no YouTube)](https://www.youtube.com/playlist?list=PLB5jA40tNf3tRMbTpBA0N7lfDZNLZAa9G)
 
 ##### Instalação do conector do MySQL com a linguagem Python
 
@@ -223,7 +223,7 @@ mydb = mysql.connector.connect(
 print(mydb) 
 ~~~
 
-###### Executando o programa Python
+###### Executando o programa Python (teste_conexao.py)
 
 ~~~
 python3 teste_conexao.py
@@ -256,7 +256,7 @@ for db in mycursor:
 	print(db)
 ~~~
 
-###### Executando o programa Python
+###### Executando o programa Python (showdatabases.py)
 
 ~~~
 python3 showdatabases.py
@@ -284,7 +284,7 @@ for tb in mycursor:
 	print(tb)
 ~~~
 
-###### Executando o programa Python
+###### Executando o programa Python (showtables.py)
 
 ~~~
 python3 showtables.py
@@ -315,7 +315,7 @@ mycursor.execute(sqlFormula, departamento1)
 mydb.commit()
 ~~~
 
-###### Executando o programa Python
+###### Executando o programa Python (insert_values.py)
 
 ~~~
 python3 insert_values.py
@@ -328,4 +328,66 @@ Você pode executar os seguintes comandos SQL no MySQL Workbench para observar o
 ~~~
 USE projeto1;
 SELECT * FROM departamento;
+~~~
+
+##### Comandos de consulta ao banco de dados
+
+###### Programa Python (select.py)
+
+Buscar todos dados de uma tabela.
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="minhasenha",
+	database="projeto1"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM departamento")
+
+myresult = mycursor.fetchall()
+
+for row in myresult:
+	print(row)
+~~~
+
+###### Executando o programa Python (select.py)
+
+~~~
+python3 select.py
+~~~
+
+###### Programa Python (selectone.py)
+
+Buscar um dado de uma tabela.
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="minhasenha",
+	database="projeto1"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("SELECT * FROM departamento")
+
+myresult = mycursor.fetchone()
+
+for row in myresult:
+	print(row)
+~~~
+
+###### Executando o programa Python (selectone.py)
+
+~~~
+python3 selectone.py
 ~~~
