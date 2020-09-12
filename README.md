@@ -289,3 +289,43 @@ for tb in mycursor:
 ~~~
 python3 showtables.py
 ~~~
+
+##### Inserindo dados nas tabelas do bancos de dados
+
+###### Programa Python (insert_values.py)
+
+~~~
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host = "127.0.0.1",
+	user="root",
+	passwd="minhasenha",
+	database="projeto1"
+)
+
+mycursor = mydb.cursor()
+
+sqlFormula = "INSERT INTO departamento (iddepartamento,nome) VALUES (%s, %s)"
+
+departamento1 = (1, "Projetos")
+
+mycursor.execute(sqlFormula, departamento1)
+
+mydb.commit()
+~~~
+
+###### Executando o programa Python
+
+~~~
+python3 insert_values.py
+~~~
+
+###### Mostrando o resultado no MySQL Workbench
+
+Você pode executar os seguintes comandos SQL no MySQL Workbench para observar o resultado da escrita dos dados no banco de dados
+
+~~~
+USE projeto1;
+SELECT * FROM departamento;
+~~~
