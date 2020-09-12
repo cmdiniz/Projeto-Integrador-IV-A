@@ -105,6 +105,7 @@ def on_connect(client, userdata, flags, rc):
 # Callback responsavel por receber uma mensagem publicada no topico acima
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
+# adicionar comandos para gravar no banco de dados
 
 client = mqtt.Client()
 client.on_connect = on_connect
