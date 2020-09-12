@@ -234,7 +234,9 @@ python3 teste_conexao.py
 <mysql.connector.connection_cext.CMySQLConnection object at 0x...
 ~~~
 
-###### Mostrando os bancos de dados do MySQL
+##### Mostrando os bancos de dados do MySQL
+
+###### Programa Python (teste_showdatabases.py)
 
 ~~~
 import mysql.connector
@@ -253,7 +255,15 @@ for db in mycursor:
 	print(db)
 ~~~
 
-###### Mostrando as tabelas de um bancos de dados projeto1
+###### Executando o programa Python
+
+~~~
+python3 teste_showdatabases.py
+~~~
+
+##### Mostrando as tabelas de um bancos de dados projeto1
+
+###### Programa Python (teste_showtables.py)
 
 ~~~
 import mysql.connector
@@ -271,4 +281,10 @@ mycursor.execute("SHOW TABLES")
 
 for tb in mycursor:
 	print(tb)
+~~~
+
+###### Executando o programa Python
+
+~~~
+python3 teste_showtables.py
 ~~~
