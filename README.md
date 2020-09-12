@@ -8,7 +8,7 @@
 * Ronaldo Silva da Cunha
 * Tiago Tessmann Oliveira
 
-### Primeiro Encontro - 15/08/2020
+### Primeiro Encontro - 15/08/2020 - Prof. Adenauer Yamin
 
 #### Sockets TCP & UDP
 [Introdução ao Conceito de Sockets](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=introducao-sockets.pdf)
@@ -65,7 +65,7 @@
 * mosquitto_pub -h broker.emqx.io -t pi4 -m "Primeira Conexao"
 
 
-#### Publicando com Scritp Bash em Broker MQTT
+#### Publicando com Script Bash em Broker MQTT
 ~~~
 #!/bin/bash
 contador=1
@@ -174,7 +174,7 @@ done
 
 ~~~
 
-### Segundo Encontro - 12/09/2020
+### Segundo Encontro - 12/09/2020 - Prof. Cláudio Diniz
 
 #### Instalação do MySQL
 * [MySQL Downloads](https://mysql.com/downloads)
@@ -194,19 +194,20 @@ done
 #### Prática com linguagem SQL (Structured Query Language)
 
 * [Prática com linguagem SQL usando MySQL](https://drive.google.com/file/d/16I9LW3rCATxGYz21vjjMKWQ64t2NKiTr/view?usp=sharing)
+* [Material extra sobre SQL](https://drive.google.com/file/d/1XDzaJN88VAHkCYxLOxtHKxb7zhhY7cGq/view?usp=sharing)
 
 #### Acessando o banco de dados com programa em Python
 
 * [Python e MySQL (playlist de vídeos no YouTube](https://www.youtube.com/playlist?list=PLB5jA40tNf3tRMbTpBA0N7lfDZNLZAa9G)
 
-##### Instalação do conector com a linguagem Python
+##### Instalação do conector do MySQL com a linguagem Python
 
 ~~~
 pip3 install --upgrade pip
 pip3 install mysql-connector
 ~~~
 
-##### Teste de conexão do banco de dados MySQL com programa em Python
+##### Teste de conexão de um banco de dados MySQL com programa em Python
 
 ###### Programa Python (teste_conexao.py)
 
@@ -236,7 +237,7 @@ python3 teste_conexao.py
 
 ##### Mostrando os bancos de dados do MySQL
 
-###### Programa Python (teste_showdatabases.py)
+###### Programa Python (showdatabases.py)
 
 ~~~
 import mysql.connector
@@ -258,12 +259,12 @@ for db in mycursor:
 ###### Executando o programa Python
 
 ~~~
-python3 teste_showdatabases.py
+python3 showdatabases.py
 ~~~
 
 ##### Mostrando as tabelas de um bancos de dados projeto1
 
-###### Programa Python (teste_showtables.py)
+###### Programa Python (showtables.py)
 
 ~~~
 import mysql.connector
@@ -286,5 +287,5 @@ for tb in mycursor:
 ###### Executando o programa Python
 
 ~~~
-python3 teste_showtables.py
+python3 showtables.py
 ~~~
